@@ -17,7 +17,7 @@ def setup_logging():
 
 
 def start(update: Update, context: CallbackContext):
-    update.effective_message.reply_text("شایگاننننننننن")
+    update.effective_message.reply_text("Spotify Playlist Downloader")
     context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="/playlist [url]"
